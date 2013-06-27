@@ -1,0 +1,44 @@
+{
+  "name": "ndarray-segment",
+  "version": "0.0.0",
+  "description": "Run length encoded sparse ndarray",
+  "main": "ndseg.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ndarray": "~1.0.0",
+    "segment-tree": "~0.1.1"
+  },
+  "devDependencies": {
+    "ndarray-ops": "~1.1.0",
+    "ndarray-unpack": "~0.0.0",
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/ndarray-segment.git"
+  },
+  "keywords": [
+    "run",
+    "length",
+    "encode",
+    "ndarray",
+    "volume",
+    "voxel",
+    "image",
+    "signal",
+    "array",
+    "multidimensional"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "0d6aada310b77983e6d243b1afbf31d7d0005610",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/ndarray-segment/issues"
+  }
+}
